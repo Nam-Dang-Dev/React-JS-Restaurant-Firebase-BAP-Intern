@@ -1,0 +1,17 @@
+.cartitem img {
+    width: 300px;
+    height: 200px;
+}
+
+.control {
+    width: 100%;
+}
+
+.inputQuantity {
+    width: 50%;
+}
+
+.tang,
+.giam {
+    width: 20%;
+}

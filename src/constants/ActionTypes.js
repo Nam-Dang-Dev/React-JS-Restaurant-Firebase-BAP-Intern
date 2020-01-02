@@ -1,0 +1,33 @@
+export const ADD_USER = 'ADD_USER';
+export const REGISTER_SUCCEES = 'REGISTER_SUCCEES';
+export const REGISTER_FAILED = 'REGISTER_FAILED';
+
+
+export const LOGIN = "LOGIN";
+export const LOGIN_FAILED = "LOGIN_FAILED"
+export const LOGIN_SUCCEES = 'LOGIN_SUCCEES';
+export const ADD_FOOD = "ADD_FOOD";
+
+export const LOG_OUT = "LOG_OUT";
+
+export const GET_ALL_FOOD = "GET_ALL_FOOD";
+export const GET_ALL_FOOD_FAILED = "GET_ALL_FOOD_FAILED";
+
+
+export const ADD_TO_CART = "ADD_TO_CART";
+export const ADD_TO_CART_FAILED = "ADD_TO_CART_FAILED";
+
+export const GET_ALL_CART = "GET_ALL_CART";
+export const GET_ALL_CART_FAILED = "GET_ALL_CART_FAILED";
+
+export const UPDATE_CART = "UPDATE_CART";
+export const UPDATE_CART_FAILED = "UPDATE_CART_FAILED";
+export const UPDATE_CART_STATUS = "UPDATE_CART_STATUS";
+export const UPDATE_CART_STATUS_FAILED = "UPDATE_CART_STATUS_FAILED";
+
+
+export const DELETE_CART_ITEM = "DELETE_CART_ITEM";
+export const DELETE_CART_ITEM_FAILED = "DELETE_CART_ITEM_FAILED";
+
+export const ADD_ORDER_SUCCESS = "ADD_ORDER_SUCCESS";
+export const ADD_ORDER_FAILED = "ADD_ORDER_FAILED";

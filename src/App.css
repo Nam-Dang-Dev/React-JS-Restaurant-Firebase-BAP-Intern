@@ -1,0 +1,173 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.hamburger_lines1 {
+    transform: matrix(1, 0, 0, 1, 0, 0)
+}
+
+.hamburger_lines2 {
+    visibility: inherit;
+    opacity: 1
+}
+
+.hamburger_lines3 {
+    transform: matrix(1, 0, 0, 1, 0, 0)
+}
+
+.main_nav ul li a {
+    font-size: 11px;
+}
+
+.space {
+    height: 100px;
+}
+
+.blog {
+    padding-top: 97px !important;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.reservations_phone a {
+    color: white;
+}
+
+.centerLink {
+    display: flex;
+    justify-content: center;
+}
+
+.aleart {
+    z-index: 9999;
+}
+
+.header.scrolled {
+    background: rgba(0, 0, 0, 0.85) !important;
+}
+
+.croll {
+    background: rgba(0, 0, 0, 0.85) !important;
+}
+
+.cart {
+    background: #ebebeb;
+}
+
+.cartItem {
+    background: white;
+    padding: 30px;
+}
+
+.checkout {
+    padding: 30px;
+    justify-content: center;
+}
+
+.contact-form,
+.contact,
+.bill {
+    background: white;
+    border: solid 0.5px honeydew;
+    justify-content: center;
+    color: black;
+    padding: 15px;
+}
+
+.tr {
+    border: solid 0.5px honeydew;
+    height: 50px;
+}
+
+.panel {
+    margin: 20px;
+}
+
+.title-bill {
+    text-align: center;
+}
+
+.left {
+    float: right;
+}
+
+.reservations_phone {
+    height: 31px;
+    line-height: 18px;
+    margin-left: 39px !important;
+}
+
+.space {
+    height: 230px;
+}
+
+.itemMenu img {
+    max-width: 100%;
+}
+
+.itemMenu .image {
+    width: 100px;
+    margin-right: 15px;
+}
+
+.itemMenu {
+    margin: 10px
+}
+
+.media-title {
+    width: 60%;
+}
+
+.add-btn {
+    float: right;
+}
+
+.price {
+    color: red
+}
+
+.blog_post_image {
+    height: 500px;
+    width: 540px;
+}
+
+.blog_post_image img {
+    height: 500px;
+}
+
+.confirmed {
+    color: blue
+}
